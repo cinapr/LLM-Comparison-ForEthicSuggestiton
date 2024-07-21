@@ -1,0 +1,40 @@
+﻿ECCOLA_Code,Questions_Reasoning
+# 0 Stakeholder Analysis,"Autonomous cars don’t just affect their passengers. Anyone nearby is affected; some even change the way they drive. If at one point half of the traffic consists of self-driving cars, what are the societal impacts of such systems? E.g., how are the people who can’t afford one affected? Regulations arising from such systems also affect everyone."
+# 2 Explainability,"When interacting with a robot, users could ideally ask the robot “why did you do that?” and receive an understandable response. This would make it much easier for them to trust a system."
+# 3 Communication,Clearly stating what data you collect and why can make you seem much more trustworthy. Compare this to a cellphone application that just states it needs to access your camera and storage.
+# 4 Documenting Trade-offs,"Documenting trade-offs can improve your customer relationship, allowing you to better explain why certain decisions were made over others. Moreover, it can reduce the responsibility placed on the individual developer(s) from an ethical point of view."
+# 5 Traceability,"When the system starts making mistakes, by aiming for traceability, it will be easier to find out the cause. Consequently, it will also be faster and possibly easier to start fixing the underlying issue."
+# 6 System Reliability,"An autonomous coffee machine successfully brews coffee 8 times out 10. While this is a decent success rate, we are left wondering what happened the2 times it failed to do so, and why. Errors are inevitable, but we must understand the causes behind them and be able to replicate them to fix them."
+# 7 Privacy and Data,"Rather than collecting and selling data, appealing to privacy can also be profitable. Regulations are making it increasingly difficult to collect lots of personal data for profit. Privacy can be an alternate selling point in today’s climate."
+# 8 Data Quality,"In 2017, Amazon scrapped its recruitment AI because of bad data. They used past recruitment data to teach the AI. As they had mostly hired men, the AI began to consider women undesirable based on the data."
+# 9 Access to Data,"Third parties you give access to the data can misuse it. A prominent example of this is the case of Cambridge Analytica and Facebook, in which data from Facebook was used questionably. However, such incidents can also paint your organization in a bad light even if you were not the ones misusing the data."
+# 10 Human Agency,A medical system recommends diagnoses. How does the system communicate to doctors why it made a recommendation? How should the doctors know when to challenge the system? Does the system somehow change how patients and doctors interact?
+# 11 Human Oversight,"Assuming control is especially related to cyber-physical systems such as drones or other vehicles. For purely digital systems, the focus should be on supporting human decision-making instead of directing it."
+# 12 System Security,The autonomous nature of AI systems makes new vectors of attack possible. A white line drawn across a road can confuse a self-driving vehicle. What happened to Microsoft’s TayTwitter bot is another example of a new type of attack.
+# 13 System Safety,"AI systems can aid automating various organizational tasks, making it possible to reduce personnel. However, if a customer organization becomes reliant on your AI system to handle a portion of its operations, what happens if that AI stops functioning for even a few days? What could you do to alleviate the impact?"
+# 14 Accessibility,"AI tends to benefit those who are already technologically capable, resulting in increased inequality. E.g.,most of the images used in machine learninghave been labeled by young white men."
+# 15 Stakeholder Participation,"Often the people an AI system is used on are individuals who are simply objects for the system. For example, a medical system is developed for hospitals, used by doctors, but ultimately used on patients. Why not talk to the patients too?"
+# 16 Environmental Impact,"If you are hosting on a third party cloud, try to ascertain the sustainability of the service provider’s services. If you are using hardware, are you processing the data in each physical device of your own or are you processing it in the cloud?"
+# 17 Societal Effects,"Surveillance technology utilizing facial recognition AI has long-reaching impacts. People may wish to avoid areas that utilize such surveillance, negatively affecting businesses in said area. People may become stressed at the mere thought of such surveillance. Some may even emigrate as a result."
+# 18 Auditability,"In heavily regulated fields such as medicine, audits are typically required before a system can be utilized in the first place."
+# 19 Ability to Redress,"AI systems can inconvenience users in unforeseen, unpredictable ways. Depending on the situation, the company may or may not be legally responsible for the inconvenience. Nonetheless, by offering a digital platform for seeking redress, your company can seem more trustworthy while also offering additional value to your users."
+# 1 Typesof Transparency,"As an IT support staff, I want to have access to a real-time monitoring dashboard of our system's operations so that I can quickly understand the current status and performance metrics, ensuring prompt troubleshooting and maintenance.
+Access to real-time data on system performance.
+Ability to view historical data trends over specified time periods.
+Dashboards should display key performance indicators such as system uptime, response times, and error rates.
+Secure access controls to ensure only authorized personnel can view the dashboard."
+# 1 Typesof Transparency,"As a Customer Support Manager, I want a detailed FAQ section available on our platform that explains our system's features and services so that customers can easily find answers to their questions, reducing the volume of basic inquiry calls to our support team.
+FAQs must cover all major features and common issues.
+The section should be easily navigable and searchable.
+Updates to FAQs should be manageable by the support team without IT intervention.
+Include visual aids (e.g., screenshots, videos) where appropriate to enhance understanding."
+# 1 Typesof Transparency,"As a Data Analyst, I want to access a detailed log of all data inputs and algorithm changes that affect customer recommendations, so that I can ensure accuracy and fairness in the outputs provided by our recommendation system.
+Access to a changelog that records all updates to algorithms and data entries.
+The system must track and display the source of data inputs and the rationale behind algorithm adjustments.
+Include a rollback feature to revert to previous settings if an update proves detrimental.
+Training provided for analysts to understand the technical details of the recommendation algorithms."
+# 1 Typesof Transparency," As a new developer on the team, I want to access a comprehensive version history and development documentation of our system, so I can understand the evolution of its architecture and the reasons behind past design decisions.
+Documentation must include a version history with timestamps and summaries of all major updates.
+Include rationale for key architectural and design choices.
+Documentation should be searchable and organized by system modules and features.
+Include links to relevant discussion threads or decision records that led to significant changes."

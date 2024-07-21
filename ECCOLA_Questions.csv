@@ -1,0 +1,87 @@
+ECCOLA_Code,Questions
+# 0 Stakeholder Analysis,"Who does the system affect, and how? Stakeholders are not simply users, developers and customers."
+# 0 Stakeholder Analysis,How are the various stakeholders linked together?
+# 0 Stakeholder Analysis,Can these different stakeholders influence the development of the system? How?
+# 0 Stakeholder Analysis,"Remember that a user is often an organization and the end-user is an individual. Similarly, AI systems can treat people as objects for data collection."
+# 1 Typesof Transparency,Are you trying to understand something? (Internal transparency)
+# 1 Typesof Transparency,Are you trying to explain something? (External transparency)
+# 1 Typesof Transparency,Are you trying to understand or explain how the system works? (Transparency of algorithms and data)
+# 1 Typesof Transparency,Are you trying to understand or explain why the system was made to be the way it now is? (Transparency of system development)
+# 2 Explainability,Is explainability a goal for your system? How do you plan to ensure it?
+# 2 Explainability,How well can each decision of the system be understood? By both developers and (end-)users.
+# 2 Explainability,Did you try to use the simplest and most interpretable model possible for the context?
+# 2 Explainability,Did you make trade-offs between explainabilityand accuracy? What kind of? Why?
+# 2 Explainability,How familiar are you with your training or testing data? Can you change it when needed?
+# 2 Explainability,"If you utilize third party components in the system, how well do you understand them?"
+# 3 Communication,What is the goal of the system? Why is this particular system deployed in this specific area? 
+# 3 Communication,What do you communicate about the system to its users and end-users? Is it enough for them to understand how the system works?
+# 3 Communication,"If relevant to your system, do you somehow tell your (end-)users that they are interacting with an AI system and not with another human being?"
+# 3 Communication,Do you collect user feedback? How is it used to change/improve the system?
+# 3 Communication,"Are communication and transparency towards other audiences, such as the general public, relevant?"
+# 4 Documenting Trade-offs,Are relevant interests and values implicated by the system and potential trade-offs between them identified and documented? 
+# 4 Documenting Trade-offs,Who decides on such trade-offs (e.g. between two competing solutions) and how? Did you ensure that the trade-off decision and the reasons behind it were documented?
+# 5 Traceability,"How have you documented the development of the system, both in terms of code and decision-making? How was the model built or the AI trained? "
+# 5 Traceability,How have you documented the testing and validation process? In terms of data and scenarios used etc.
+# 5 Traceability,How do you document the actions of the system? What about alternate actions (e.g. if the user was different but the situation otherwise the same)?
+# 6 System Reliability,How do you test if the system fulfills its goals?
+# 6 System Reliability,"Have you tested the system comprehensively, including unlikely scenarios? Have the tests been documented?"
+# 6 System Reliability,"When the system fails in a certain scenario, will you be able to tell why? Can you replicate the failure?"
+# 6 System Reliability,How do you assure the (end-)user of the system�s reliability?
+# 7 Privacy and Data,What data are used by the system?
+# 7 Privacy and Data,Does the system use or collect personal data? Why? How is the personal data used?
+# 7 Privacy and Data,"Do you clearly inform your (end-)users about any personal data collection? E.g., ask for consent, provide an opportunity to revoke it etc."
+# 7 Privacy and Data,"Have you taken measures to enhance (end-user) privacy, such as encryption or anonymization? "
+# 7 Privacy and Data,Who makes the decisions regarding data use and collection? Do you have organizational policies for it?
+# 8 Data Quality,What are good or poor quality data in the context of your system?
+# 8 Data Quality,How do you evaluate the quality and integrity of your own data? Are there alternative ways?
+# 8 Data Quality,"If you utilize data from external sources, how do you control their quality?"
+# 8 Data Quality,"Did you align your system with relevant standards (for example ISO, IEEE) or widely adopted protocols for daily data management and governance?"
+# 8 Data Quality,How can you tell if your data sets have been hacked or otherwise compromised?
+# 8 Data Quality,"Who handles the data collection, storage, and use?"
+# 9 Access to Data,"Who can access the users� data, and under what circumstances? "
+# 9 Access to Data,How do you ensure that the people who access the data: 1) have a valid reason to do so; and 2) adhere to the regulations and policies related to the data?
+# 9 Access to Data,Do you keep logs of who accesses the data and when? Do the logs also tell why?
+# 9 Access to Data,Do you use existing data governance frameworks or protocols? Does your organization have its own?
+# 10 Human Agency,"Does the system interact with decisions by human actors, i.e. end users (e.g. recommending users actions or decisions, or presenting options)? "
+# 10 Human Agency,"Does the system communicate to its (end) users that a decision, content or outcome is the result of an algorithmic decision? Into how much detail does it go?"
+# 10 Human Agency,"In the system�s use context, what tasks are done by the system and what tasks are done by humans?"
+# 10 Human Agency,Have you taken measures to prevent overconfidence or overreliance on the system?
+# 11 Human Oversight,Who can control the system and how? In what situations?
+# 11 Human Oversight,What would be the appropriate level of human control for this particular system and its use cases?
+# 11 Human Oversight,"Related to the Safety and Security cards: how do you detect and respond if something goes wrong? Does the system then stop entirely, partially, or would control be delegated to a human? Why?"
+# 12 System Security,Did you assess potential forms of attacks to which the system could be vulnerable? Did you consider ones that are unique or more relevant to AI systems?
+# 12 System Security,"Did you consider different types of vulnerabilities, such as data pollution and physical infrastructure? "
+# 12 System Security,Have you verified how your system behaves in unexpected situations and environments? 
+# 12 System Security,Does your organization have cybersecurity personnel? Are they involved in this system?
+# 13 System Safety,What kind of risks does the system involve? What kind of damage could it cause?
+# 13 System Safety,How do you measure and assess risks and safety? 
+# 13 System Safety,What fallback plans does your system have? Have they been tested?
+# 13 System Safety,In what conditions do the fallback plans trigger? Are they automatic or do they require human input?
+# 13 System Safety,"Is there a plan to mitigate or manage technological errors, accidents, or malicious misuse? What if the systems provides wrong results, becomes unavailable, or provides societally unacceptable results?"
+# 13 System Safety,What liability and consumer protection laws apply to your system? Have you taken them into account?
+# 14 Accessibility,"Does the system consider a wide range of individual preferences and abilities? If not, why? "
+# 14 Accessibility,"Is the system usable by those with special needs or disabilities, those at risk of exclusion, or those using assistive technologies? "
+# 14 Accessibility,Were people representing various groups somehow involved in the development of the system?
+# 14 Accessibility,How is the potential user audience taken into account? 
+# 14 Accessibility,Is the team involved in building the system representative of your target user audience? Is it representative of the general population?
+# 14 Accessibility,Did you assess whether there could be (groups of) people who might be disproportionately affected by the negative implications of the system?
+# 15 Stakeholder Participation,Which stakeholders are stakeholders in system development?
+# 15 Stakeholder Participation,"How are the different stakeholders of the system involved in the development of the system? If they aren�t, why?"
+# 15 Stakeholder Participation,How do you inform your external and internal stakeholders of the system�s development?
+# 16 Environmental Impact,"Did you assess the environmental impact of the system�s development, deployment, and use? E.g., the type of energy used by the data centers. "
+# 16 Environmental Impact,Did you consider the environmental impact when selecting specific technical solutions? 
+# 16 Environmental Impact,Did you ensure measures to reduce the environmental impact of your system�s life cycle?
+# 17 Societal Effects,Did you assess the broader societal impact of the AI system�s use beyond the individual (end-)users? Consider stakeholders who might be indirectly affected by the system.
+# 17 Societal Effects,How will the systems affect society when in use?
+# 17 Societal Effects,What kind of systemic effects could the system have?
+# 18 Auditability,Is the system auditable?
+# 18 Auditability,Can an audit be conducted independently?
+# 18 Auditability,Is the system available for inspection?
+# 18 Auditability,What mechanisms facilitate the system�s auditability? How is traceability and logging of the system�s processes and outcomes ensured?
+# 19 Ability to Redress,What is your (developer organization) responsibility if the system causes damage or otherwise has a negative impact?
+# 19 Ability to Redress,"In the event of negative impact, can the ones affected seek redress?"
+# 19 Ability to Redress,How do you inform users and other third parties about opportunities for redress?
+# 20 Minimizing Negative Impacts,"Are the people involved with the development of the system also involved with it during its operational life? If not, they may not feel as accountable."
+# 20 Minimizing Negative Impacts,Are you aware of laws related to the system?
+# 20 Minimizing Negative Impacts,"Can users of the system somehow report vulnerabilities, risks, and other issues in the system?"
+# 20 Minimizing Negative Impacts,"With whom have you discussed accountability and other ethical issues related to the system, including grey areas?"
