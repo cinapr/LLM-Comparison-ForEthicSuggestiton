@@ -3,8 +3,7 @@ import pandas as pd
 import os
 import time
 
-#API_KEY = 'your-api-key-here'
-API_KEY = 'your-api-key-here'
+API_KEY = 'your-openai-api-key-here'
 
 openai.api_key = API_KEY
 
