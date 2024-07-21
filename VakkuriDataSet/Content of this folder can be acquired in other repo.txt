@@ -1,0 +1,3 @@
+Content of this folder can be acquired in other repo:
+
+https://github.com/cinapr/LLM-Comparison-ForEthicSuggestiton/
