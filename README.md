@@ -23,6 +23,9 @@ Before starting, ensure you have Python installed on your system. The author is 
      .\python.exe -m pip install pandas transformers torch pickle
      ```
 
+3. **Get Testing DataSet**
+    Testing dataset can be acquired from the [main github repository of this project](https://github.com/cinapr/EthicalAutomatedSuggestion).
+
 ### Compare GPT4ALL models
 1. Install the depedency:
      ```bash
@@ -35,7 +38,8 @@ Before starting, ensure you have Python installed on your system. The author is 
    python GPT4ALL_COMPAREMODEL.py
      ```
 
-### Data Preparation
+### Compare Other LLMs
+#### Data Preparation
 
 - Ensure the Vakkuri Dataset is placed in the main directory of the cloned repository.
 - For each of the tokenizer and interface you need to ensure the model name and csv name is correct (Check directly on the code)
