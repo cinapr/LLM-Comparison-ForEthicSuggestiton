@@ -4,7 +4,7 @@ import json
 import datetime
 
 # Define your OpenAI API key at the top of the script
-API_KEY = 'your-api-key-here'
+API_KEY = 'your-openai-api-key-here'
 
 # Initialize the OpenAI API key
 openai.api_key = API_KEY
