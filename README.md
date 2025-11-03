@@ -2,6 +2,7 @@
 Automated Suggestion build based on Vakkuri, Ville, et al. | ECCOLA—A method for implementing ethically aligned AI systems | Journal of Systems and Software 182:111067 | 2021
 
 This repo is the code for **proving design decision in subsection 4.6.3 Transformation algorithm** of thesis : https://lutpub.lut.fi/handle/10024/168082
+This page shows how to run the project. For full documentation on motivation and resule, please kindly check : https://github.com/cinapr/LLM-Comparison-ForEthicSuggestiton/blob/main/Result_Documentation.pdf
 
 ## BART Processing with Vakkuri Dataset
 This project demonstrates how to process the Vakkuri Dataset using BART models for natural language processing. Follow the steps below to set up and run the project on your local environment.
